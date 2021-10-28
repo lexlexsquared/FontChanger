@@ -52,39 +52,20 @@ table {
 }
 
 body {
-  width: 240px;
-  height: 230px;
+  width: 500px;
+  height: 500px;
   display: block;
   text-align: center;
   padding: 10px;
 }
-h1 {
-  font-size: 20px;
-  padding: 15px 0;
-  text-transform: uppercase;
-  text-wrap: nowrap;
-  color: #fff;
-  text-shadow: #000 0px 4px 20px;
-}
-h2 {
-  background: #0000FF;
-  border: 3px #fff dotted;
-  display: inline-block;
-  padding: 3px;
-  border-radius: 8px;
-  margin: 10px;
-  color: #fff;
-  font-size: 12px;
-}
-h2:hover {
-  animation: color-change 1s ease infinite;
-}
+
 button {
-  margin: 15px auto;
+  margin: 85px auto 0;
   padding: 15px 10px;
   font-size: 18px;
+  color: paleturquoise;
   border-radius: 5px;
-  background: #00FFFF;
+  background: midnightblue;
   display: block;
   width: 210px;
 }
@@ -94,7 +75,8 @@ button:hover {
 }
 
 #case_switch {
-  background: #ffeb00;
+  background: midnightblue;
+  color: paleturquoise;
   font-size: 14px;
   padding: 5px 10px;
   margin: 0 auto 5px;
@@ -108,39 +90,7 @@ button:hover {
   top: 0;
   bottom: 0;
   position: absolute;
-  background: linear-gradient(45deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3, #2b1de8, #1ddde8, #1de840, #e3e81d, #e8b71d, #e81d1d, #ff2400);
-  background-size: 1800% 1800%;
-
-  animation: rainbow 3s linear infinite;
-}
-
-.emoji {
-  font-family: "sans-serif";
-}
-
-@keyframes color-change {
-  0% {
-    color: #fff;
-    background: #0000FF;
-    border-color: #fff;
-  }
-  50% {
-    color: #0000FF;
-    background: #fff;
-    border-color: #0000FF;
-  }
-  100% {
-    color: #fff;
-    background: #0000FF;
-    border-color: #fff;
-  }
-}
-
-@keyframes rainbow {
-  0% {
-    background-position:0% 100%
-  }
-  100% {
-    background-position:100% 0%
-  }
+  background:red;
+  background-image: url('icons/angryGosling.gif');
+  background-size: 100% 100%;
 }
