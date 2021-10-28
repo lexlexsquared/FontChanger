@@ -60,8 +60,8 @@ body {
 }
 
 button {
-  margin: 85px auto 0;
-  padding: 15px 10px;
+  margin: 200px auto 0px;
+  padding: 10px 10px;
   font-size: 18px;
   color: paleturquoise;
   border-radius: 5px;
@@ -78,8 +78,9 @@ button:hover {
   background: midnightblue;
   color: paleturquoise;
   font-size: 14px;
+  margin-top: 10%;
   padding: 5px 10px;
-  margin: 0 auto 5px;
+  margin: 17px auto 5px;
 }
 
 .container {

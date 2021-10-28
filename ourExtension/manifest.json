@@ -1,17 +1,17 @@
 {
   "manifest_version": 2,
   "name": "I Know What You Did",
-  "description": "Extension that turns all website font to Papyrus",
+  "description": "Extension that turns all website font to Ryan Gosling's favorite font : Papyrus ",
   "version": "2.1.5",
   "homepage_url": "https://github.com/sixela295/FontChanger",
   "icons": {
-    "16": "/icons/get_started16.png",
-    "32": "/icons/get_started32.png",
-    "48": "/icons/get_started48.png",
-    "128": "/icons/get_started128.png"
+    "16": "/icons/avatarAIcon16.png",
+    "32": "/icons/avatarAIcon32.png",
+    "48": "/icons/avatarAIcon48.png",
+    "128": "/icons/avatarAIcon128.png"
   },
   "browser_action": {
-    "default_icon": "/icons/get_started16.png",
+    "default_icon": "/icons/avatarAIcon16.png",
     "default_title": "Change I Know What You Did settings",
     "default_popup": "popup.html"
   },

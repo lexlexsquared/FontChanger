@@ -50,13 +50,7 @@ window.chrome.storage.sync.get(['status', 'uppercase'], (items) => {
   }
 })
 
-// when people click the credit button //!Remove if does not break everything
-document.getElementById('twttr_button').onclick = () => {
-  // open up a new tab with Github
-  window.chrome.tabs.create({
-    url: 'https://github.com/sixela295/FontChanger'
-  })
-}
+
 document.getElementById('font_switch').onclick = () => {
   window.chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
     let activeTab = tabs[0]
